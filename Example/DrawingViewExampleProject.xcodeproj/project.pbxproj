@@ -20,6 +20,7 @@
 		A50949E51615AB1300EF47EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A50949C61615AB1200EF47EF /* Foundation.framework */; };
 		A50949ED1615AB1300EF47EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A50949EB1615AB1300EF47EF /* InfoPlist.strings */; };
 		A50949F01615AB1300EF47EF /* DrawingViewExampleProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A50949EF1615AB1300EF47EF /* DrawingViewExampleProjectTests.m */; };
+		A5094A011615AEF300EF47EF /* FingerDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = A5094A001615AEF300EF47EF /* FingerDrawingView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,8 @@
 		A50949EC1615AB1300EF47EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A50949EE1615AB1300EF47EF /* DrawingViewExampleProjectTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawingViewExampleProjectTests.h; sourceTree = "<group>"; };
 		A50949EF1615AB1300EF47EF /* DrawingViewExampleProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawingViewExampleProjectTests.m; sourceTree = "<group>"; };
+		A50949FF1615AEF300EF47EF /* FingerDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FingerDrawingView.h; path = ../../Source/FingerDrawingView.h; sourceTree = "<group>"; };
+		A5094A001615AEF300EF47EF /* FingerDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FingerDrawingView.m; path = ../../Source/FingerDrawingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +114,7 @@
 		A50949CA1615AB1300EF47EF /* DrawingViewExampleProject */ = {
 			isa = PBXGroup;
 			children = (
+				A50949FD1615AE8B00EF47EF /* Source */,
 				A50949D31615AB1300EF47EF /* HZAppDelegate.h */,
 				A50949D41615AB1300EF47EF /* HZAppDelegate.m */,
 				A50949D61615AB1300EF47EF /* HZViewController.h */,
@@ -149,6 +153,15 @@
 				A50949EB1615AB1300EF47EF /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A50949FD1615AE8B00EF47EF /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A50949FF1615AEF300EF47EF /* FingerDrawingView.h */,
+				A5094A001615AEF300EF47EF /* FingerDrawingView.m */,
+			);
+			name = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +273,7 @@
 				A50949D11615AB1300EF47EF /* main.m in Sources */,
 				A50949D51615AB1300EF47EF /* HZAppDelegate.m in Sources */,
 				A50949D81615AB1300EF47EF /* HZViewController.m in Sources */,
+				A5094A011615AEF300EF47EF /* FingerDrawingView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +441,7 @@
 				A50949F51615AB1300EF47EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A50949F61615AB1300EF47EF /* Build configuration list for PBXNativeTarget "DrawingViewExampleProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -435,6 +450,7 @@
 				A50949F81615AB1300EF47EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
